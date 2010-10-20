@@ -1,3 +1,7 @@
+/**
+ * @author Tomasz Jakub Rup <tomasz.rup@gmail.com>
+ */
+
 if(Date.toLocaleFormat==undefined) {
 	Date.prototype.toLocaleFormat = function(formatString) {
 		function extend(str){
