@@ -2,9 +2,10 @@
  * @author Tomasz Jakub Rup <tomasz.rup@gmail.com>
  */
 
-if(Date.toLocaleFormat==undefined) {
+if (!Date.toLocaleFormat) {
 	Date.prototype.toLocaleFormat = function(formatString) {
-		function extend(str, fill='0'){
+		function extend(str, fill){
+			if (typeof fill == 'undefined') fill = '0';
 			return (String(str).length == 1) ? fill+String(str) : String(str);
 		}
 		return formatString
