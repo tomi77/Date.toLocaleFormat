@@ -1,5 +1,5 @@
 /*
- * Date.toLocaleFormat
+ * date.toLocaleFormat.js
  * 
  * Copyright (c) 2012 Tomasz Jakub Rup <tomasz.rup@gmail.com>
  *
