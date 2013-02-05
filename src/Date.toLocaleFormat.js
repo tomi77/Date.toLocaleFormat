@@ -10,7 +10,7 @@
  *   http://www.gnu.org/licenses/gpl.html
  */
 
-if (!Date.toLocaleFormat) {
+if (!Date.prototype.toLocaleFormat) {
 	/**
 	 * Converts a date to a string using the specified formatting.
 	 * 
@@ -61,7 +61,7 @@ if (!Date.toLocaleFormat) {
 	/**
 	 * %b and %h is replaced by the locale's abbreviated month name.
 	 */
-	Date.prototype.toLocaleFormat.b
+	Date.prototype.toLocaleFormat.b =
 	Date.prototype.toLocaleFormat.h = function(d) {
 		return Date.prototype.toLocaleFormat.monthNamesShort[d.getMonth()];
 	}
