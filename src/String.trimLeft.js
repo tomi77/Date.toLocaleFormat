@@ -10,7 +10,7 @@
  *   http://www.gnu.org/licenses/gpl.html
  */
 
-if (!String.trimLeft) {
+if (!String.prototype.trimLeft) {
 	/**
 	 * Return a inew string without leading whitespace.
 	 * 
