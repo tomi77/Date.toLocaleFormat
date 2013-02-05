@@ -10,7 +10,7 @@
  *   http://www.gnu.org/licenses/gpl.html
  */
 
-if (!Date.toLocaleFormat) {
+if (!Date.prototype.toLocaleFormat) {
 	/**
 	 * Converts a date to a string using the specified formatting.
 	 * 
