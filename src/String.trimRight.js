@@ -10,7 +10,7 @@
  *   http://www.gnu.org/licenses/gpl.html
  */
 
-if (!String.trimRight) {
+if (!String.prototype.trimRight) {
 	/**
 	 * Return a new string without trialing whitespace.
 	 * 
