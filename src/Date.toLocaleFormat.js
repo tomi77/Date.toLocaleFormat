@@ -61,7 +61,7 @@ if (!Date.prototype.toLocaleFormat) {
 	/**
 	 * %b and %h is replaced by the locale's abbreviated month name.
 	 */
-	Date.prototype.toLocaleFormat.b
+	Date.prototype.toLocaleFormat.b =
 	Date.prototype.toLocaleFormat.h = function(d) {
 		return Date.prototype.toLocaleFormat.monthNamesShort[d.getMonth()];
 	}
